@@ -41,9 +41,3 @@ def play_word(player, word):
   return player_to_words
 
 print(play_word("Lexi Con","test_word"))
-
-#def play_word(player, word):
-#  for player, words in player_to_words.items():
-#    if player in player_to_words and word not in words:
-#      player_to_words[player].append(word)
-#    return player_to_words
